@@ -2,7 +2,7 @@
 
 #include <stdio.h>
  
-void main()
+int main()
 {
     int num;
  
@@ -14,4 +14,5 @@ void main()
         printf("%d je negativan broj \n", num);
     else
         printf("broj je 0, tj nije ni pozitivan ni negativan");
+ return 0;
 }
